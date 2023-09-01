@@ -1,0 +1,56 @@
+.container{
+  width:450px;
+  height:600px;
+  background-color: black;
+  padding:15px;
+}
+
+.display{
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  padding:10px 0;
+  border-radius: 10px;
+  background-color: #252020;
+  color: white;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.btn-container{
+  width: 100%;
+  height: calc(100% - 80px);
+  background-color:rgb(123, 209, 209);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  
+}
+
+button{
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  background-color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  color: aqua;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+}
+
+.equals{
+  grid-column:3/5;
+}
+
+.equals:hover{
+  background-color: red;
+}
